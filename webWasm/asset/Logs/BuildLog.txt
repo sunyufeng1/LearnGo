@@ -1,0 +1,1562 @@
+[       1s] Executed build program. Created build graph with 1071 nodes.
+[     1s] Build frontend of artifacts\tundra_tinyfactory-wasm-tinyfactory_u60.dag ran (no suitable previous build dag file)
+[  26/1053  0s] WriteResponseFile artifacts/rsp/15408154040330266469.rsp
+[  26/1053  0s] WriteResponseFile artifacts/rsp/12602905440372929777.rsp
+[  28/1053  0s] WriteResponseFile artifacts/rsp/16926510682582177420.rsp
+[  36/1053  0s] WriteText artifacts/emscripten-config-1.39.8.py
+[  37/1053  0s] WriteResponseFile artifacts/rsp/13937719507139651812.rsp
+[  38/1053  0s] CopyTool ../../Builds/tinyfactory-wasm-tinyfactory/Data/058fb35a3c92fe126f995e6eb7b4e94f
+[  39/1053  0s] CopyTool ../../Builds/tinyfactory-wasm-tinyfactory/Data/46b433b264c69cbd39f04ad2e5d12be8
+[  45/1053  0s] CopyTool ../../Builds/tinyfactory-wasm-tinyfactory/Data/a9add95f94777f64b954375d95968cac
+[ 621/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/netstandard.dll
+[ 622/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/mscorlib.dll
+[ 623/1053  0s] Csc artifacts/UnsafeUtility.dll/tinyfactory-wasm-tinyfactory/UnsafeUtility.dll (+2 others)
+[ 624/1053  1s] Download and unpack artifacts/Stevedore/nativejobs-WebGL-public/.StevedoreVersion (+1 other)
+Downloading: https://public-stevedore.unity3d.com/r/public/nativejobs-WebGL-public/46bd6bd79399531f426be021f0545fe9c8b40147_d007fdee4edfad87778873d58dc63b5b4ac65a2127256f4f29f6c028689834b3.7z (zUQw3n8Wlu5jSVkI/A).
+[ 625/1053  0s] Csc artifacts/Unity.LowLevel.dll/tinyfactory-wasm-tinyfactory/Unity.LowLevel.dll (+2 others)
+[ 626/1053  0s] Patch artifacts/UnsafeUtility.dll/tinyfactory-wasm-tinyfactory/patched/UnsafeUtility.dll (+pdb)
+[UnsafeUtilityPatcher] Patching assembly : artifacts/UnsafeUtility.dll/tinyfactory-wasm-tinyfactory/UnsafeUtility.dll to : artifacts/UnsafeUtility.dll/tinyfactory-wasm-tinyfactory/patched/UnsafeUtility.dll
+[ 627/1053  0s] Csc artifacts/Unity.Tiny.Burst.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.Burst.dll (+2 others)
+[ 628/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/UnsafeUtility.dll (+pdb)
+[ 629/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.LowLevel.dll (+pdb)
+[ 630/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.Burst.dll (+pdb)
+[ 631/1053  0s] Csc artifacts/Unity.Burst.dll/tinyfactory-wasm-tinyfactory/Unity.Burst.dll (+2 others)
+[ 632/1053  2s] Download and unpack artifacts/Stevedore/nativejobs-WebGL-s/.StevedoreVersion (+1 other)
+Downloading: https://public-stevedore.unity3d.com/r/public/nativejobs-WebGL-s/46bd6bd79399531f426be021f0545fe9c8b40147_0fa198dffb4d0ab3ad162c9d48c68a11ebd90db14eb4bf1ecbc40c2d463b244c.7z (zUQw3n8Wlu5jSVkI/A).
+[ 633/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Burst.dll (+pdb)
+[ 634/1053  0s] Csc artifacts/Unity.ZeroJobs.dll/tinyfactory-wasm-tinyfactory/Unity.ZeroJobs.dll (+2 others)
+[ 635/1053  0s] Csc artifacts/Unity.Platforms.Common.dll/tinyfactory-wasm-tinyfactory/Unity.Platforms.Common.dll (+2 others)
+[ 636/1053  0s] Csc artifacts/Unity.Platforms.RunLoop.dll/tinyfactory-wasm-tinyfactory/Unity.Platforms.RunLoop.dll (+2 others)
+[ 637/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.ZeroJobs.dll (+pdb)
+[ 638/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Platforms.Common.dll (+pdb)
+[ 639/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Platforms.RunLoop.dll (+pdb)
+[ 640/1053  2s] Csc artifacts/Unity.Mathematics.dll/tinyfactory-wasm-tinyfactory/Unity.Mathematics.dll (+2 others)
+[ 641/1053  5s] Download and unpack artifacts/Stevedore/node-win-x64/.StevedoreVersion (+1 other)
+[ 642/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Mathematics.dll (+pdb)
+[ 643/1053  0s] Csc artifacts/Unity.Collections.dll/tinyfactory-wasm-tinyfactory/Unity.Collections.dll (+2 others)
+[ 644/1053  0s] Csc artifacts/Unity.Tiny.Codec.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.Codec.dll (+2 others)
+[ 645/1053  0s] Csc artifacts/Unity.Jobs.dll/tinyfactory-wasm-tinyfactory/Unity.Jobs.dll (+2 others)
+[ 646/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Collections.dll (+pdb)
+[ 647/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.Codec.dll (+pdb)
+[ 648/1053  0s] Csc artifacts/Unity.Mathematics.Extensions.dll/tinyfactory-wasm-tinyfactory/Unity.Mathematics.Extensions.dll (+2 others)
+[ 649/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Jobs.dll (+pdb)
+[ 650/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Mathematics.Extensions.dll (+pdb)
+[ 651/1053  0s] Csc artifacts/Unity.Entities.dll/tinyfactory-wasm-tinyfactory/Unity.Entities.dll (+2 others)
+[ 652/1053  0s] Csc artifacts/Unity.Entities.Runtime.dll/tinyfactory-wasm-tinyfactory/Unity.Entities.Runtime.dll (+2 others)
+[ 653/1053  0s] Csc artifacts/Unity.Tiny.Core.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.Core.dll (+2 others)
+[ 654/1053  0s] Csc artifacts/Unity.Transforms.dll/tinyfactory-wasm-tinyfactory/Unity.Transforms.dll (+2 others)
+[ 655/1053  0s] Csc artifacts/Unity.Tiny.IO.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.IO.dll (+2 others)
+[ 656/1053  0s] Csc artifacts/Unity.Tiny.Image2D.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.Image2D.dll (+2 others)
+[ 657/1053  0s] Csc artifacts/Unity.Tiny.Web.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.Web.dll (+2 others)
+[ 658/1053  0s] Csc artifacts/Unity.Tiny.Input.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.Input.dll (+2 others)
+[ 659/1053  0s] Csc artifacts/Unity.Tiny.Rendering.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.Rendering.dll (+2 others)
+[ 660/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Entities.Runtime.dll (+pdb)
+[ 661/1053  0s] Csc artifacts/Unity.Tiny.Animation.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.Animation.dll (+2 others)
+[ 662/1053  0s] Csc artifacts/Unity.Tiny.Scenes.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.Scenes.dll (+2 others)
+[ 663/1053  1s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.Core.dll (+pdb)
+[ 664/1053  0s] Csc artifacts/Unity.Tiny.Image2D.Web.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.Image2D.Web.dll (+2 others)
+[ 665/1053  1s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Entities.dll (+pdb)
+[ 666/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.IO.dll (+pdb)
+[ 667/1053  1s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Transforms.dll (+pdb)
+[ 668/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.Image2D.dll (+pdb)
+[ 669/1053  0s] Csc artifacts/Unity.Tiny.Input.Web.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.Input.Web.dll (+2 others)
+[ 670/1053  0s] Csc artifacts/Unity.Tiny.UnityInstance.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.UnityInstance.dll (+2 others)
+[ 671/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.Web.dll (+pdb)
+[ 672/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.Input.dll (+pdb)
+[ 673/1053 10s] Download and unpack artifacts/Stevedore/winpython2-x64/.StevedoreVersion (+1 other)
+[ 674/1053  2s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.Rendering.dll (+pdb)
+[ 675/1053  1s] Csc artifacts/Unity.Tiny.Rendering.Native.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.Rendering.Native.dll (+2 others)
+[ 676/1053  1s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.Animation.dll (+pdb)
+[ 677/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.Input.Web.dll (+pdb)
+[ 678/1053  1s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.Image2D.Web.dll (+pdb)
+[ 679/1053  1s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.Scenes.dll (+pdb)
+[ 680/1053  0s] Csc artifacts/Unity.Runtime.EntryPoint.exe/tinyfactory-wasm-tinyfactory/Unity.Runtime.EntryPoint.exe (+2 others)
+[ 681/1053  0s] Csc artifacts/Unity.Tiny.RendererExtras.dll/tinyfactory-wasm-tinyfactory/Unity.Tiny.RendererExtras.dll (+2 others)
+[ 682/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Runtime.EntryPoint.exe (+pdb)
+[ 683/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.UnityInstance.dll (+pdb)
+[ 684/1053  0s] Csc artifacts/TinyFactory.dll/tinyfactory-wasm-tinyfactory/TinyFactory.dll (+2 others)
+[ 685/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/TinyFactory.dll (+pdb)
+[ 686/1053  0s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.RendererExtras.dll (+pdb)
+[ 687/1053  1s] ILPostProcessorRunner artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_ilprocessing/Unity.Tiny.Rendering.Native.dll (+pdb)
+[ 688/1053  3s] TypeRegGen artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/post_typereg/TinyFactory.dll (+61 others)
+[ 689/1053  4s] UnityLinker artifacts/TinyFactory/tinyfactory-wasm-tinyfactory_stripped/TinyFactory.dll (+61 others)
+[ 690/1053 23s] Download and unpack artifacts/Stevedore/emscripten-win/.StevedoreVersion (+1 other)
+Downloading: https://public-stevedore.unity3d.com/r/public/emscripten-win/1.39.8.2-unity_589e65ba2b0f420d10a9c517c5f6b46d4d3239e1cdadb126914742f4edde7878.7z (zUQw3n8Wlu5jSVkI/A).
+[BUSY      29s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-win/.StevedoreVersion (+1 other)
+[ 691/1053 10s] Il2Cpp artifacts/TinyFactory/tinyfactory-wasm-tinyfactory_stripped/il2cpp-src/driver.cpp (+59 others)
+Running il2cpp.exe in server GC mode.
+[BUSY      39s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-win/.StevedoreVersion (+1 other)
+[BUSY      49s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-win/.StevedoreVersion (+1 other)
+[BUSY      59s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-win/.StevedoreVersion (+1 other)
+[BUSY      69s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-win/.StevedoreVersion (+1 other)
+[BUSY      79s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-win/.StevedoreVersion (+1 other)
+[ 692/1053 85s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-win/.StevedoreVersion (+1 other)
+Downloading: https://public-stevedore.unity3d.com/r/public/emscripten-wasm-llvm-win/11.0git-e1.39.8.2-unity_6762ccc3ed7e4ba35336d35cbec1db5298fe4156cf01f94ad67e01f923514fb9.7z (zUQw3n8Wlu5jSVkI/A).
+[ 693/1053  2s] C_WebGL_wasm artifacts/lib_unity_tiny_burst/tinyfactory-wasm-tinyfactory/7j50/dummy.o
+cache:INFO: generating system asset: is_vanilla.txt... (this will be cached in "E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\emscripten-cache-1.39.8\is_vanilla.txt" for subsequent builds)
+cache:INFO:  - ok
+shared:INFO: (Emscripten: Running sanity checks)
+[ 694/1053  2s] C_WebGL_wasm artifacts/lib_unity_zerojobs/tinyfactory-wasm-tinyfactory/7j50/dummy.o
+shared:INFO: (Emscripten: Running sanity checks)
+[ 695/1053  2s] C_WebGL_wasm artifacts/lib_unity_lowlevel/tinyfactory-wasm-tinyfactory/7j50/dummy.o
+shared:INFO: (Emscripten: Running sanity checks)
+[ 696/1053  2s] C_WebGL_wasm artifacts/lib_unity_zerojobs/tinyfactory-wasm-tinyfactory/nmdy/ZeroJobsNativeSupport.o
+shared:INFO: (Emscripten: Running sanity checks)
+[ 697/1053  2s] C_WebGL_wasm artifacts/lib_unity_lowlevel/tinyfactory-wasm-tinyfactory/h3ha/guard.o
+shared:INFO: (Emscripten: Running sanity checks)
+[ 698/1053  0s] C_WebGL_wasm artifacts/lib_unity_tiny_image2d_web/tinyfactory-wasm-tinyfactory/7j50/dummy.o
+[ 699/1053  0s] C_WebGL_wasm artifacts/lib_unity_tiny_codec/tinyfactory-wasm-tinyfactory/7j50/dummy.o
+[ 700/1053  0s] C_WebGL_wasm artifacts/lib_unity_tiny_core/tinyfactory-wasm-tinyfactory/7j50/dummy.o
+[ 701/1053  0s] C_WebGL_wasm artifacts/lib_unity_tiny_codec/tinyfactory-wasm-tinyfactory/lvao/LZ4Wrapper.o
+[ 702/1053  3s] C_WebGL_wasm artifacts/lib_unity_lowlevel/tinyfactory-wasm-tinyfactory/h3ha/allocators.o
+shared:INFO: (Emscripten: Running sanity checks)
+In file included from E:/syf/project/U3d/2020/TinyFactory/Library/PackageCache/com.unity.dots.runtime@0.25.0-preview/LowLevelSupport~/Unity.LowLevel/cpp~/allocators.cpp:1:
+E:\syf\project\U3d\2020\TinyFactory\Library\PackageCache\com.unity.dots.runtime@0.25.0-preview\LowLevelSupport~\Unity.LowLevel\cpp~\include\allocators.h:6:16: warning: nested namespace definition is a C++17 extension; define each namespace separately [-Wc++17-extensions]
+namespace Unity::LowLevel
+               ^~~~~~~~~~
+                { namespace LowLevel
+1 warning generated.
+[ 703/1053  0s] C_WebGL_wasm artifacts/lib_unity_tiny_io/tinyfactory-wasm-tinyfactory/7j50/dummy.o
+[ 704/1053  1s] C_WebGL_wasm artifacts/lib_unity_tiny_core/tinyfactory-wasm-tinyfactory/6e59/Log.o
+[ 705/1053  3s] C_WebGL_wasm artifacts/lib_unity_tiny_burst/tinyfactory-wasm-tinyfactory/vffm/BurstNativeSupport.o
+shared:INFO: (Emscripten: Running sanity checks)
+In file included from E:/syf/project/U3d/2020/TinyFactory/Library/PackageCache/com.unity.dots.runtime@0.25.0-preview/LowLevelSupport~/Unity.Tiny.Burst/cpp~/BurstNativeSupport.cpp:8:
+E:\syf\project\U3d\2020\TinyFactory\Library\PackageCache\com.unity.dots.runtime@0.25.0-preview\LowLevelSupport~\Unity.LowLevel\cpp~\include\allocators.h:6:16: warning: nested namespace definition is a C++17 extension; define each namespace separately [-Wc++17-extensions]
+namespace Unity::LowLevel
+               ^~~~~~~~~~
+                { namespace LowLevel
+1 warning generated.
+[ 706/1053  3s] C_WebGL_wasm artifacts/lib_unity_lowlevel/tinyfactory-wasm-tinyfactory/h3ha/BurstInit.o
+shared:INFO: (Emscripten: Running sanity checks)
+E:\syf\project\U3d\2020\TinyFactory\Library\PackageCache\com.unity.dots.runtime@0.25.0-preview\LowLevelSupport~\Unity.LowLevel\cpp~\BurstInit.cpp:44:24: warning: object backing the pointer will be destroyed at the end of the full-expression [-Wdangling-gsl]
+    const char* name = (string(libname) + ".so").c_str();
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[ 707/1053  0s] C_WebGL_wasm artifacts/lib_unity_platforms_common/tinyfactory-wasm-tinyfactory/7j50/dummy.o
+[ 708/1053  0s] C_WebGL_wasm artifacts/lib_unity_tiny_io/tinyfactory-wasm-tinyfactory/au1u/AndroidLoader.o
+[ 709/1053  0s] C_WebGL_wasm artifacts/lib_unity_platforms_common/tinyfactory-wasm-tinyfactory/e4az/macOSWrapper.o
+[ 710/1053  0s] C_WebGL_wasm artifacts/lib_unity_platforms_common/tinyfactory-wasm-tinyfactory/2aqx/WindowsWrapper.o
+[ 711/1053  0s] C_WebGL_wasm artifacts/bimg/tinyfactory-wasm-tinyfactory/yw6r/image_gnf.o
+[ 712/1053  2s] C_WebGL_wasm artifacts/lib_unity_tiny_io/tinyfactory-wasm-tinyfactory/v2yr/TinyIO.o
+In file included from E:/syf/project/U3d/2020/TinyFactory/Library/PackageCache/com.unity.tiny@0.25.0-preview/Unity.Tiny.IO/cpp~/TinyIO.cpp:3:
+E:\syf\project\U3d\2020\TinyFactory\Library\PackageCache\com.unity.dots.runtime@0.25.0-preview\LowLevelSupport~\Unity.LowLevel\cpp~\include\allocators.h:6:16: warning: nested namespace definition is a C++17 extension; define each namespace separately [-Wc++17-extensions]
+namespace Unity::LowLevel
+               ^~~~~~~~~~
+                { namespace LowLevel
+1 warning generated.
+[ 713/1053  2s] C_WebGL_wasm artifacts/bimg/tinyfactory-wasm-tinyfactory/wwu2/codec.o
+[ 714/1053  2s] C_WebGL_wasm artifacts/bimg/tinyfactory-wasm-tinyfactory/wwu2/astc_file.o
+[ 715/1053  2s] C_WebGL_wasm artifacts/bimg/tinyfactory-wasm-tinyfactory/yw6r/image.o
+[ 716/1053  2s] C_WebGL_wasm artifacts/bimg/tinyfactory-wasm-tinyfactory/wwu2/endpoint_codec.o
+[ 717/1053  3s] C_WebGL_wasm artifacts/lib_unity_tiny_codec/tinyfactory-wasm-tinyfactory/4ikl/lz4.o
+[ 718/1053  2s] C_WebGL_wasm artifacts/bimg/tinyfactory-wasm-tinyfactory/wwu2/footprint.o
+[ 719/1053  2s] C_WebGL_wasm artifacts/bimg/tinyfactory-wasm-tinyfactory/wwu2/integer_sequence_codec.o
+[ 720/1053  1s] C_WebGL_wasm artifacts/bimg/tinyfactory-wasm-tinyfactory/wwu2/physical_astc_block.o
+[ 721/1053  4s] C_WebGL_wasm artifacts/bx/tinyfactory-wasm-tinyfactory/77b1/amalgamated.o
+[ 722/1053  1s] C_WebGL_wasm artifacts/bimg/tinyfactory-wasm-tinyfactory/wwu2/logical_astc_block.o
+[ 723/1053  1s] C_WebGL_wasm artifacts/bimg/tinyfactory-wasm-tinyfactory/wwu2/weight_infill.o
+[ 724/1053  0s] C_WebGL_wasm artifacts/lib_unity_tiny_rendering_native/tinyfactory-wasm-tinyfactory/7j50/dummy.o
+[ 725/1053  2s] C_WebGL_wasm artifacts/bimg/tinyfactory-wasm-tinyfactory/wwu2/intermediate_astc_block.o
+[ 726/1053  2s] C_WebGL_wasm artifacts/bimg/tinyfactory-wasm-tinyfactory/wwu2/quantization.o
+[ 727/1053  2s] C_WebGL_wasm artifacts/bimg/tinyfactory-wasm-tinyfactory/wwu2/partition.o
+[ 728/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/jmop/Stopwatch.o
+[ 729/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/jmop/Debugger.o
+[ 730/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/kkh8/GCHandle.o
+[ 731/1053  1s] C_WebGL_wasm artifacts/lib_unity_tiny_rendering_native/tinyfactory-wasm-tinyfactory/lxe5/BufferedCallbacks.o
+[ 732/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/5t12/Enum.o
+[ 733/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/sp7d/il2cpp-codegen.o
+[ 734/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/5t12/GC.o
+[ 735/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/5t12/Console.o
+[ 736/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/5t12/Type.o
+[ 737/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/5t12/Math.o
+[ 738/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/5t12/Environment.o
+[ 739/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/3oq1/Interlocked.o
+[ 740/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/ckog/il2cpp-benchmark-support.o
+[ 741/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/ckog/il2cpp-api.o
+[ 742/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/ckog/il2cpp-virtual-remap.o
+[ 743/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/quxa/pch-cpp.o
+[ 744/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/2q4c/DebugMetadata.o
+[ 745/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/2q4c/Exception.o
+[ 746/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/2q4c/Runtime.o
+[ 747/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/2q4c/PlatformInvoke.o
+[ 748/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/2q4c/String.o
+[ 749/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/2q4c/Reflection.o
+[ 750/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/2q4c/Type.o
+[ 751/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/zq8x/Initialize.o
+[ 752/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/2q4c/TypeUniverse.o
+[ 753/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/zq8x/Locale.o
+[ 754/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/zq8x/StackTrace.o
+[ 755/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/zq8x/TimeZoneInfo.o
+[ 756/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/COM.o
+[ 757/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/2q4c/StackTrace.o
+[ 758/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Console.o
+[ 759/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/ConditionVariable.o
+[ 760/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/CpuInfo.o
+[ 761/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Cryptography.o
+[ 762/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Debug.o
+[ 763/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Allocator.o
+[ 764/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Error.o
+[ 765/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Directory.o
+[ 766/1053  4s] C_WebGL_wasm artifacts/boehm-gc/tinyfactory-wasm-tinyfactory/3qko/gc.o
+[ 767/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Event.o
+[ 768/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/File.o
+[ 769/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Handle.o
+[ 770/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Locale.o
+[ 771/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/LibraryLoader.o
+[ 772/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Memory.o
+[ 773/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Environment.o
+[ 774/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/MemoryMappedFile.o
+[ 775/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Messages.o
+[ 776/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Mutex.o
+[ 777/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/NativeMethods.o
+[ 778/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Path.o
+[ 779/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Process.o
+[ 780/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Socket.o
+[ 781/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Semaphore.o
+[ 782/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/SystemCertificates.o
+[ 783/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/COMTests.o
+[ 784/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/ConditionVariableTests.o
+[ 785/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/CpuInfoTests.o
+[ 786/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/ConsoleTests.o
+[ 787/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/CryptographyTests.o
+[ 788/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/DebugTests.o
+[ 789/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/DirectoryTests.o
+[ 790/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/EnvironmentTests.o
+[ 791/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/ErrorTests.o
+[ 792/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/EventTests.o
+[ 793/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/FileTests.o
+[ 794/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/LibraryLoaderTests.o
+[ 795/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/LocaleTests.o
+[ 796/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/MainTestRunner.o
+[ 797/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/MemoryMappedFileTests.o
+[ 798/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/MemoryTests.o
+[ 799/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/MessagesTests.o
+[ 800/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/MutexTests.o
+[ 801/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/NativeMethodsTests.o
+[ 802/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/PathTests.o
+[ 803/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/ProcessTests.o
+[ 804/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/SemaphoreTests.o
+[ 805/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/SocketTests.o
+[ 806/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/ThreadLocalValueTests.o
+[ 807/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/ThreadTests.o
+[ 808/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/TimeTests.o
+[ 809/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/usd2/TimeZoneInfoTests.o
+[ 810/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Thread.o
+[ 811/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/ThreadLocalValue.o
+[ 812/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/Time.o
+[ 813/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/TimeZone.o
+[ 814/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/0mhp/TimeZoneInfo.o
+[ 815/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/8u4y/SocketBridge.o
+[ 816/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/COM.o
+[ 817/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vn11/Error.o
+[ 818/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/CpuInfo.o
+[ 819/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vn11/ConditionVariable.o
+[ 820/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vn11/CrashHelpers.o
+[ 821/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/CrashHelpers.o
+[ 822/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vn11/Event.o
+[ 823/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/Environment.o
+[ 824/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/Initialize.o
+[ 825/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/MarshalStringAlloc.o
+[ 826/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/MemoryMappedFile.o
+[ 827/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/File.o
+[ 828/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/Debug.o
+[ 829/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/Handle.o
+[ 830/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/SocketBridge.o
+[ 831/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/SocketImpl.o
+[ 832/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/SystemCertificates.o
+[ 833/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/TimeZoneInfo.o
+[ 834/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/Process.o
+[ 835/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/l4if/Automation.o
+[ 836/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/l4if/Debug.o
+[ 837/1053 11s] C_WebGL_wasm artifacts/bgfx/tinyfactory-wasm-tinyfactory/geoa/amalgamated.o
+[ 838/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/l4if/Initialize.o
+[ 839/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vt23/WindowsRuntime.o
+[ 840/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/l4if/File.o
+[ 841/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vn11/LibraryLoader.o
+[ 842/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/l4if/Environment.o
+[ 843/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/l4if/Lifecycle.o
+[ 844/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/l4if/Process.o
+[ 845/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/l4if/StackTrace.o
+[ 846/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/l4if/TimeZoneInfo.o
+[ 847/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/s9qf/Image.o
+[ 848/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/s9qf/Process.o
+[ 849/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/s9qf/SystemCertificates.o
+[ 850/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/ConditionVariableImpl.o
+[ 851/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/Console.o
+[ 852/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vn11/Messages.o
+[ 853/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/CpuInfo.o
+[ 854/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/Cryptography.o
+[ 855/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vn11/Path.o
+[ 856/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/CrashHelpers.o
+[ 857/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/Directory.o
+[ 858/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vn11/Mutex.o
+[ 859/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/Encoding.o
+[ 860/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/EventImpl.o
+[ 861/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/Image.o
+[ 862/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/FileSystemWatcher.o
+[ 863/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/LastError.o
+[ 864/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/Environment.o
+[ 865/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/Error.o
+[ 866/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/Locale.o
+[ 867/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/MarshalAlloc.o
+[ 868/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/MemoryMappedFile.o
+[ 869/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/Memory.o
+[ 870/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/MutexImpl.o
+[ 871/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/NativeMethods.o
+[ 872/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/Path.o
+[ 873/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/PosixHelpers.o
+[ 874/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/PosixWaitObject.o
+[ 875/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/File.o
+In file included from E:/syf/project/U3d/2020/TinyFactory/Library/DotsRuntimeBuild/artifacts/Stevedore/il2cpp/libil2cpp/os/Posix/File.cpp:27:
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\Stevedore\emscripten-win\system\include\libc\sys\errno.h:1:2: warning: redirecting incorrect #include <sys/errno.h> to <errno.h> [-W#warnings]
+#warning redirecting incorrect #include <sys/errno.h> to <errno.h>
+ ^
+1 warning generated.
+[ 876/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/Process.o
+[ 877/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/SemaphoreImpl.o
+[ 878/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/LibraryLoader.o
+[ 879/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/SystemCertificates.o
+[ 880/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/SocketImpl.o
+[ 881/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/StackTrace.o
+[ 882/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/ThreadImpl.o
+[ 883/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/TimeZone.o
+[ 884/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/36wb/Time.o
+[ 885/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vn11/ReaderWriterLock.o
+[ 886/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vn11/Socket.o
+[ 887/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/jz1h/ThreadImpl.o
+[ 888/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/COM.o
+[ 889/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vn11/Semaphore.o
+[ 890/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/ConditionVariableImpl.o
+[ 891/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/CpuInfo.o
+[ 892/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/Console.o
+[ 893/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vn11/StackTrace.o
+[ 894/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/CrashHelpers.o
+[ 895/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/vn11/Thread.o
+[ 896/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/Debug.o
+[ 897/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/Cryptography.o
+[ 898/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/DllMain.o
+[ 899/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/Directory.o
+[ 900/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/Encoding.o
+[ 901/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/Environment.o
+[ 902/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/EventImpl.o
+[ 903/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/File.o
+[ 904/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/Handle.o
+[ 905/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/Image.o
+[ 906/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/FileSystemWatcher.o
+[ 907/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/LastError.o
+[ 908/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/Initialize.o
+[ 909/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/LibraryLoader.o
+[ 910/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/Locale.o
+[ 911/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/MarshalAlloc.o
+[ 912/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/MarshalStringAlloc.o
+[ 913/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/MutexImpl.o
+[ 914/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/NativeMethods.o
+[ 915/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/MemoryMappedFile.o
+[ 916/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/Memory.o
+[ 917/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/Path.o
+[ 918/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/SemaphoreImpl.o
+[ 919/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/SocketImpl.o
+[ 920/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/SystemCertificates.o
+[ 921/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/StackTrace.o
+[ 922/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/Time.o
+[ 923/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/ThreadImpl.o
+[ 924/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/SynchronizationContext.o
+[ 925/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/Process.o
+[ 926/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/TimeZone.o
+[ 927/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/WindowsHelpers.o
+[ 928/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/v2jj/WindowsRuntime.o
+[ 929/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/e3hf/BrokeredFileSystem.o
+[ 930/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/u2rb/Win32ApiWindowsGamesEmulation.o
+[ 931/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/e3hf/Environment.o
+[ 932/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/e3hf/Cryptography.o
+[ 933/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/e3hf/File.o
+[ 934/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/e3hf/MarshalAlloc.o
+[ 935/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/e3hf/Locale.o
+[ 936/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/e3hf/Process.o
+[ 937/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/e3hf/Win32ApiWinRTEmulation.o
+[ 938/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/e3hf/Initialize.o
+[ 939/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/e3hf/Win32ApiSharedEmulation.o
+[ 940/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/f981/NullGC.o
+[ 941/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/f981/WriteBarrierValidation.o
+[ 942/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/f981/WriteBarrier.o
+[ 943/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/Assert.o
+[ 944/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/AtomicQueue.o
+[ 945/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/f981/BoehmGC.o
+[ 946/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/Il2CppHStringReference.o
+[ 947/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/Logging.o
+[ 948/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/MarshalingUtils.o
+[ 949/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/f981/GarbageCollector.o
+[ 950/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/f981/GCHandle.o
+[ 951/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/DirectoryUtils.o
+[ 952/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/Memory.o
+[ 953/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/Exception.o
+[ 954/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/MemoryMappedFile.o
+[ 955/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/Environment.o
+[ 956/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/q6uc/BlobReader.o
+[ 957/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/MemoryPool.o
+[ 958/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/mono-structs.o
+[ 959/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/q6uc/Debugger.o
+[ 960/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/Output.o
+[ 961/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/PathUtils.o
+[ 962/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/Runtime.o
+[ 963/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/q6uc/NativeDelegateMethodCache.o
+[ 964/1053  0s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/q6uc/VmStringUtils.o
+[ 965/1053  0s] C_WebGL_wasm artifacts/lib_unity_tiny_web/tinyfactory-wasm-tinyfactory/7j50/dummy.o
+[ 966/1053  0s] C_WebGL_wasm artifacts/lib_unity_tiny_web/tinyfactory-wasm-tinyfactory/une0/HTMLWrapper.o
+[ 967/1053  0s] C_WebGL_wasm artifacts/lib_unity_tiny_web/tinyfactory-wasm-tinyfactory/une0/SendMessageCallbackHandler.o
+[ 968/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/m6ht/StringUtils.o
+[ 969/1053  0s] C_WebGL_wasm artifacts/lib_unity_tiny_input_web/tinyfactory-wasm-tinyfactory/7j50/dummy.o
+[ 970/1053  0s] C_WebGL_wasm artifacts/lib_unity_platforms_runloop/tinyfactory-wasm-tinyfactory/7j50/dummy.o
+[ 971/1053  1s] C_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/q6uc/NativeSymbol.o
+[ 972/1053  1s] C_WebGL_wasm artifacts/lib_unity_platforms_runloop/tinyfactory-wasm-tinyfactory/t15d/HTMLWrapper.o
+[ 973/1053  0s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/1g7o/xxhash.o
+In file included from E:/syf/project/U3d/2020/TinyFactory/Library/DotsRuntimeBuild/artifacts/Stevedore/il2cpp/external/xxHash/xxhash.c:1021:
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\Stevedore\il2cpp\external\xxHash\xxh3.h:550:13: warning: loop not unrolled: the optimizer was unable to perform the requested transformation; the transformation might be disabled or specified as part of an unsupported transformation ordering [-Wpass-failed=transform-warning]
+static void XXH3_accumulate(U64* acc, const void* restrict data, const U32* restrict key, size_t nbStripes)
+            ^
+1 warning generated.
+[ 974/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/driver.o
+[ 975/1053  3s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/GenericMethods1.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods1.cpp:607:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods1.cpp:763:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[ 976/1053  4s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/GenericMethods.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods.cpp:654:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods.cpp:827:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[ 977/1053  4s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/GenericMethods3.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods3.cpp:966:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods3.cpp:1228:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods3.cpp:2424:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods3.cpp:2926:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods3.cpp:3069:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+5 warnings generated.
+[ 978/1053  4s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/GenericMethods2.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods2.cpp:1499:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods2.cpp:1718:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods2.cpp:2198:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+3 warnings generated.
+[ 979/1053  4s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/GenericMethods5.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods5.cpp:1064:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods5.cpp:1377:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods5.cpp:1874:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods5.cpp:1890:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods5.cpp:1906:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods5.cpp:1922:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods5.cpp:1938:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+7 warnings generated.
+[ 980/1053  5s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/GenericMethods6.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods6.cpp:565:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods6.cpp:826:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[ 981/1053  5s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/GenericMethods4.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods4.cpp:1503:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods4.cpp:1816:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods4.cpp:2521:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods4.cpp:3032:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods4.cpp:3048:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods4.cpp:3527:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods4.cpp:3758:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods4.cpp:3901:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+8 warnings generated.
+[ 982/1053  6s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/GenericMethods7.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods7.cpp:773:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods7.cpp:1035:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods7.cpp:1068:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods7.cpp:1162:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods7.cpp:1178:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods7.cpp:1194:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+6 warnings generated.
+[ 983/1053  4s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Generics2.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:912:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:1034:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:1285:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:1301:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:1317:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:1333:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:7503:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:7544:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:7585:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:7626:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:7667:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:7708:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:7749:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:7790:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:7831:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:7872:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:7913:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:7954:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:7995:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8036:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8077:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8118:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8159:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8200:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8241:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8282:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8323:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8364:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8405:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8446:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8487:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8528:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8569:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8610:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8651:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8692:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8733:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8774:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8815:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8856:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8897:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8938:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:8979:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:9020:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:9061:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:9102:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:9143:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:9184:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:9225:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:9266:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics2.cpp:9307:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+51 warnings generated.
+[ 984/1053  7s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/GenericMethods8.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods8.cpp:954:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods8.cpp:1241:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods8.cpp:1341:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods8.cpp:2805:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods8.cpp:2821:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods8.cpp:2837:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods8.cpp:2853:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods8.cpp:2869:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods8.cpp:2885:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods8.cpp:3757:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods8.cpp:4266:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods8.cpp:4444:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+12 warnings generated.
+[ 985/1053  6s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Generics3.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:1643:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:1799:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:2128:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:2144:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:2160:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:2176:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:2192:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:2208:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:2224:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:2240:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:2256:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15198:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15239:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15280:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15321:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15362:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15403:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15444:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15485:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15526:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15567:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15608:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15649:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15690:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15731:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15772:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15813:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15854:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15895:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15936:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:15977:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:16018:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:16059:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:16100:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:16141:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics3.cpp:16182:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+36 warnings generated.
+[ 986/1053  8s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Generics1.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:3364:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:4443:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:5246:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:5262:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:5278:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:5294:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:5310:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:5973:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:6274:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18161:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18202:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18243:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18284:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18325:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18366:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18407:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18448:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18489:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18530:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18571:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18612:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18653:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18694:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18735:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18776:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18817:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18858:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18899:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18940:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:18981:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:19022:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:19063:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:19104:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:19145:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:19186:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:19227:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:19268:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:19309:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:19350:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics1.cpp:19391:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+40 warnings generated.
+[ 987/1053  7s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Generics4.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics4.cpp:1945:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics4.cpp:2761:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[ 988/1053 10s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Generics.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics.cpp:2751:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics.cpp:3246:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics.cpp:3340:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics.cpp:3356:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics.cpp:3372:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics.cpp:4412:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics.cpp:4924:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+7 warnings generated.
+[ 989/1053  8s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Generics5.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics5.cpp:1193:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics5.cpp:1315:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[ 990/1053 12s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/GenericMethods9.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods9.cpp:2046:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods9.cpp:2417:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods9.cpp:4029:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods9.cpp:4045:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods9.cpp:4061:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods9.cpp:4077:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods9.cpp:4093:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods9.cpp:4109:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods9.cpp:5229:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods9.cpp:5738:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\GenericMethods9.cpp:5916:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+11 warnings generated.
+[ 991/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/TinyTypes.o
+[ 992/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/StaticConstructors.o
+[ 993/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/ModuleInitializers.o
+[ 994/1053  8s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Generics6.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics6.cpp:1181:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics6.cpp:1303:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[ 995/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/StringLiterals.o
+[ 996/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/StaticInitialization.o
+[ 997/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Runtime.EntryPoint.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Runtime.EntryPoint.cpp:120:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Runtime.EntryPoint.cpp:199:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[ 998/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/TinyFactory.o
+[ 999/1053  8s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Generics7.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics7.cpp:1175:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics7.cpp:1487:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[1000/1053  7s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Generics9.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics9.cpp:1848:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics9.cpp:2286:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics9.cpp:3632:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics9.cpp:3648:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics9.cpp:3664:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics9.cpp:3680:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics9.cpp:5370:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics9.cpp:5429:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics9.cpp:5667:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics9.cpp:5766:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+10 warnings generated.
+[1001/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.Burst.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Burst.cpp:106:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+1 warning generated.
+[1002/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.Input.Web.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Input.Web.cpp:548:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Input.Web.cpp:653:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[1003/1053  8s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Generics8.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics8.cpp:1398:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Generics8.cpp:1571:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[1004/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.Web.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Web.cpp:617:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Web.cpp:824:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[1005/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.LowLevel.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.LowLevel.cpp:135:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+1 warning generated.
+[1006/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Burst.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Burst.cpp:257:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+1 warning generated.
+[1007/1053  5s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/TinyMethods.o
+[1008/1053  2s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.Core.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Core.cpp:872:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Core.cpp:1168:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Core.cpp:1531:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+3 warnings generated.
+[1009/1053  3s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.ZeroJobs.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.ZeroJobs.cpp:1016:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.ZeroJobs.cpp:1353:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.ZeroJobs.cpp:1542:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+3 warnings generated.
+[1010/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.Input.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Input.cpp:618:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Input.cpp:837:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[1011/1053  5s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Mathematics.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Mathematics.cpp:347:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Mathematics.cpp:487:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[1012/1053  2s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.RendererExtras.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.RendererExtras.cpp:1010:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.RendererExtras.cpp:1200:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.RendererExtras.cpp:1528:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+3 warnings generated.
+[1013/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/netstandard.o
+[1014/1053  3s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.Animation.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Animation.cpp:916:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Animation.cpp:1123:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Animation.cpp:1600:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Animation.cpp:1633:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Animation.cpp:1947:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Animation.cpp:2120:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+6 warnings generated.
+[1015/1053  7s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.Rendering.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.cpp:1295:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.cpp:1608:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.cpp:2430:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.cpp:2463:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.cpp:2479:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.cpp:2495:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.cpp:3262:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.cpp:3278:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.cpp:3320:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.cpp:3425:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.cpp:3467:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+11 warnings generated.
+[1016/1053  8s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Transforms.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Transforms.cpp:1208:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Transforms.cpp:1398:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Transforms.cpp:2011:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+3 warnings generated.
+[1017/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.Image2D.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Image2D.cpp:425:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Image2D.cpp:704:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Image2D.cpp:737:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+3 warnings generated.
+[1018/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Mathematics.Extensions.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Mathematics.Extensions.cpp:118:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Mathematics.Extensions.cpp:151:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[1019/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.Image2D.Web.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Image2D.Web.cpp:569:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Image2D.Web.cpp:865:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Image2D.Web.cpp:986:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Image2D.Web.cpp:1034:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+4 warnings generated.
+[1020/1053  5s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/mscorlib.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\mscorlib.cpp:1040:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\mscorlib.cpp:1521:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\mscorlib.cpp:1621:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+3 warnings generated.
+[1021/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Platforms.Common.o
+[1022/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/UnsafeUtility.o
+[1023/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.UnityInstance.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.UnityInstance.cpp:377:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.UnityInstance.cpp:596:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[1024/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Platforms.RunLoop.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Platforms.RunLoop.cpp:190:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Platforms.RunLoop.cpp:239:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[1025/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Jobs.o
+[1026/1053  2s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.Scenes.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Scenes.cpp:866:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Scenes.cpp:1162:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Scenes.cpp:1594:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Scenes.cpp:1610:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+4 warnings generated.
+[1027/1053  6s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Collections.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Collections.cpp:606:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Collections.cpp:813:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Collections.cpp:1552:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Collections.cpp:1749:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+4 warnings generated.
+[1028/1053  0s] Lib_WebGL_wasm artifacts/lib_unity_lowlevel/tinyfactory-wasm-tinyfactory/lib_unity_lowlevel.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1029/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Entities.Runtime.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.Runtime.cpp:454:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.Runtime.cpp:750:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[1030/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.Codec.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Codec.cpp:150:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Codec.cpp:222:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+2 warnings generated.
+[1031/1053  0s] Lib_WebGL_wasm artifacts/boehm-gc/tinyfactory-wasm-tinyfactory/boehm-gc.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1032/1053  1s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.IO.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.IO.cpp:173:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+1 warning generated.
+[1033/1053  0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_burst/tinyfactory-wasm-tinyfactory/lib_unity_tiny_burst.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1034/1053  0s] Lib_WebGL_wasm artifacts/lib_unity_zerojobs/tinyfactory-wasm-tinyfactory/lib_unity_zerojobs.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1035/1053  0s] Lib_WebGL_wasm artifacts/libil2cpptiny/tinyfactory-wasm-tinyfactory/libil2cpptiny.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1036/1053  0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_core/tinyfactory-wasm-tinyfactory/lib_unity_tiny_core.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1037/1053  0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_codec/tinyfactory-wasm-tinyfactory/lib_unity_tiny_codec.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1038/1053  0s] Lib_WebGL_wasm artifacts/lib_unity_platforms_runloop/tinyfactory-wasm-tinyfactory/lib_unity_platforms_runloop.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1039/1053  0s] Lib_WebGL_wasm artifacts/lib_unity_platforms_common/tinyfactory-wasm-tinyfactory/lib_unity_platforms_common.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1040/1053  0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_image2d_web/tinyfactory-wasm-tinyfactory/lib_unity_tiny_image2d_web.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1041/1053  0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_web/tinyfactory-wasm-tinyfactory/lib_unity_tiny_web.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1042/1053  0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_io/tinyfactory-wasm-tinyfactory/lib_unity_tiny_io.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1043/1053  0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_input_web/tinyfactory-wasm-tinyfactory/lib_unity_tiny_input_web.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1044/1053  0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_rendering_native/tinyfactory-wasm-tinyfactory/lib_unity_tiny_rendering_native.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1045/1053 20s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Tiny.Rendering.Native.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:3984:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:4351:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:4748:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:5603:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:5636:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:5652:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:5668:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:5684:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:5700:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:5716:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:5732:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:5748:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:5764:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:7027:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:7060:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:7322:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:7338:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:7363:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:7401:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:7417:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:7450:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Tiny.Rendering.Native.cpp:7527:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+22 warnings generated.
+[1046/1053 19s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Unity.Entities.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:4104:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:4420:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:4520:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:5382:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:5460:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:5807:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:5903:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:5919:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:5935:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:5968:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:5984:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:6094:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:6706:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:7192:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:7337:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:7353:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:7495:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Unity.Entities.cpp:7957:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+18 warnings generated.
+[1047/1053 26s] C_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/ptbn/Il2CppGenericComDefinitions.o
+E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\TinyFactory\tinyfactory-wasm-tinyfactory_stripped\il2cpp-src\Il2CppGenericComDefinitions.cpp:293:3: warning: declaration does not declare anything [-Wmissing-declarations]
+                struct
+                ^
+1 warning generated.
+[BUSY       6s] Link_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/TinyFactory.html (+wasm,js)
+[BUSY      16s] Link_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/TinyFactory.html (+wasm,js)
+[BUSY      26s] Link_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/TinyFactory.html (+wasm,js)
+[BUSY      36s] Link_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/TinyFactory.html (+wasm,js)
+[BUSY      46s] Link_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/TinyFactory.html (+wasm,js)
+[BUSY      56s] Link_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/TinyFactory.html (+wasm,js)
+[BUSY      66s] Link_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/TinyFactory.html (+wasm,js)
+[1048/1053 67s] Link_WebGL_wasm artifacts/TinyFactory/tinyfactory-wasm-tinyfactory/TinyFactory.html (+wasm,js)
+cache:INFO: generating system library: libc.a... (this will be cached in "E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\emscripten-cache-1.39.8\wasm\libc.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libcompiler_rt.a... (this will be cached in "E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\emscripten-cache-1.39.8\wasm\libcompiler_rt.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libc-wasm.a... (this will be cached in "E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\emscripten-cache-1.39.8\wasm\libc-wasm.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libc++-noexcept.a... (this will be cached in "E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\emscripten-cache-1.39.8\wasm\libc++-noexcept.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libc++abi-noexcept.a... (this will be cached in "E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\emscripten-cache-1.39.8\wasm\libc++abi-noexcept.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libfetch.a... (this will be cached in "E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\emscripten-cache-1.39.8\wasm\libfetch.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libgl-webgl2.a... (this will be cached in "E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\emscripten-cache-1.39.8\wasm\libgl-webgl2.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libdlmalloc-noerrno.a... (this will be cached in "E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\emscripten-cache-1.39.8\wasm\libdlmalloc-noerrno.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libpthread_stub.a... (this will be cached in "E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\emscripten-cache-1.39.8\wasm\libpthread_stub.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libc_rt_wasm.a... (this will be cached in "E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\emscripten-cache-1.39.8\wasm\libc_rt_wasm.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libsockets.a... (this will be cached in "E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\emscripten-cache-1.39.8\wasm\libsockets.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system asset: generated_struct_info.json... (this will be cached in "E:\syf\project\U3d\2020\TinyFactory\Library\DotsRuntimeBuild\artifacts\emscripten-cache-1.39.8\wasm\generated_struct_info.json" for subsequent builds)
+cache:INFO:  - ok
+[1049/1053  0s] CopyTool ../../Builds/tinyfactory-wasm-tinyfactory/TinyFactory.wasm
+[1050/1053  0s] CopyTool ../../Builds/tinyfactory-wasm-tinyfactory/TinyFactory.js
+[1051/1053  0s] CopyTool ../../Builds/tinyfactory-wasm-tinyfactory/TinyFactory.html
+[           0s] Destroying Roslyn Shared Compiler Server
+*** Bee build success (226.11 seconds - 0:03:46), 439 items updated
